@@ -8,11 +8,11 @@ Because an entire port is nearly impossible, the way I am doing this port at the
 About
 =====
 
-I know that people attempted a [Gamesman++](Gamesman_Plus_Plus "wikilink") port a last semester (Spring '08). But I feel that it was overcomplicated, both in its design and in that it did not seem to make game implementation simple.
+I know that people attempted a [Gamesman++.md](Gamesman_Plus_Plus "wikilink") port a last semester (Spring '08). But I feel that it was overcomplicated, both in its design and in that it did not seem to make game implementation simple.
 
-Now there's also a [Gamesman+-](Gamesman_Plus_Minus "wikilink") port. I like several design decisions that Gamesman+- made to generalize Dartboard games. However, some of these break down slightly when dealing with games/puzzles that require custom board types (for example, not square), and it fixes several of the problems that original gamesman has. In fact my main complaint about Gamesman+- is that it tries too hard to be C++, and also depends too much on hashtables for properties that could just as easily be compiled into the code. It makes heavy use of function pointers, which may as well be virtual functions which allow for
+Now there's also a [Gamesman+-.md](Gamesman_Plus_Minus "wikilink") port. I like several design decisions that Gamesman+- made to generalize Dartboard games. However, some of these break down slightly when dealing with games/puzzles that require custom board types (for example, not square), and it fixes several of the problems that original gamesman has. In fact my main complaint about Gamesman+- is that it tries too hard to be C++, and also depends too much on hashtables for properties that could just as easily be compiled into the code. It makes heavy use of function pointers, which may as well be virtual functions which allow for
 
-There is now a third codebase, [Gamesman Java](Gamesman_Java "wikilink"). I think the hope is that [Gamesman+-](Gamesman+- "wikilink") will be as compatible as possible with the Java system. However I also realize that it may be trickier than it sounds. Also, I'm not sure about the performance difference, but if GamesmanJava avoids creating a Board object for each move, or if it is JIT compiled, performance while solving may actually be comparable between the two.
+There is now a third codebase, [Gamesman Java.md](Gamesman_Java.md "wikilink"). I think the hope is that [Gamesman+-.md](Gamesman+-.md "wikilink") will be as compatible as possible with the Java system. However I also realize that it may be trickier than it sounds. Also, I'm not sure about the performance difference, but if GamesmanJava avoids creating a Board object for each move, or if it is JIT compiled, performance while solving may actually be comparable between the two.
 
 SVN
 ===

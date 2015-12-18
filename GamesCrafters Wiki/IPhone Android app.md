@@ -1,5 +1,5 @@
 IPhone Android app
 ==================
 
-1.  REDIRECT [GamesmanMobile](GamesmanMobile "wikilink")
+1.  REDIRECT [GamesmanMobile.md](GamesmanMobile.md "wikilink")
 

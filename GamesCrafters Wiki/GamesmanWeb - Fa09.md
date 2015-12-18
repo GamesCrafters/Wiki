@@ -1,7 +1,7 @@
 GamesmanWeb - Fa09
 ==================
 
-This semester, I ([James Ide](Ide "wikilink")) worked alone on my project.
+This semester, I ([James Ide.md](Ide "wikilink")) worked alone on my project.
 
 Overview
 ========

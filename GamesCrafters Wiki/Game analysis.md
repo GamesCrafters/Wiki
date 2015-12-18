@@ -27,5 +27,5 @@ Project team
 The following people are working on this project:
 
 -   Matt Johnson
--   [Alan Wu](User:Alanwu "wikilink")
+-   [Alan Wu.md](User:Alanwu "wikilink")
 

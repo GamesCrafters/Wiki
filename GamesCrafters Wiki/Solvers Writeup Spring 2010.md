@@ -37,7 +37,7 @@ The focus of the Solvers Team for this semester is to provide the back-end suppo
 ### Code Overview
 
 -   **MMHaser**:
-    -   The hasher is a generalized version of the hasher used to solve Connect 4. The generalization allows for similar efficiency techniques to be applied in the solving of the Game of Y and Connections. See [Solver journey‎](Solver_journey‎ "wikilink") and [Fast Rearranger](Fast_Rearranger "wikilink") for more information about the original hasher. The current hasher differs in that it hashes the board in two phase, first hashing in respect to the primary pieces and then the secondary. Currently the hasher supports the hashing of the game board into a number and unhashing that back to the board. It also supports the data structure required to implement the efficient algorithms of stepping and piece rearrangement.
+    -   The hasher is a generalized version of the hasher used to solve Connect 4. The generalization allows for similar efficiency techniques to be applied in the solving of the Game of Y and Connections. See [Solver journey‎.md](Solver_journey‎.md "wikilink") and [Fast Rearranger.md](Fast_Rearranger.md "wikilink") for more information about the original hasher. The current hasher differs in that it hashes the board in two phase, first hashing in respect to the primary pieces and then the secondary. Currently the hasher supports the hashing of the game board into a number and unhashing that back to the board. It also supports the data structure required to implement the efficient algorithms of stepping and piece rearrangement.
 
 ### Problems / Difficulties
 

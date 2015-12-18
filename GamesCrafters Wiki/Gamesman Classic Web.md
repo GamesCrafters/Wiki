@@ -1,5 +1,5 @@
 Gamesman Classic Web
 ====================
 
-1.  REDIRECT [Avro](Avro "wikilink")
+1.  REDIRECT [Avro.md](Avro.md "wikilink")
 

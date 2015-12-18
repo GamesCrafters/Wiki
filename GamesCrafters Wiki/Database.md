@@ -8,12 +8,12 @@ Current Databases
 
 There are several databases implemented in Gamesman. They range in functionality and are often tailored for specific purposes.
 
--   [Bit-Perfect DB](Bit-Perfect_DB "wikilink")
--   [File DB](File_DB "wikilink")
--   [Mem DB](Mem_DB "wikilink")
--   [Two-bit DB](Two-bit_DB "wikilink")
--   [Univ DB](Univ_DB "wikilink")
--   [Collision DB](Collision_DB "wikilink")
+-   [Bit-Perfect DB.md](Bit-Perfect_DB.md "wikilink")
+-   [File DB.md](File_DB.md "wikilink")
+-   [Mem DB.md](Mem_DB.md "wikilink")
+-   [Two-bit DB.md](Two-bit_DB.md "wikilink")
+-   [Univ DB.md](Univ_DB.md "wikilink")
+-   [Collision DB.md](Collision_DB.md "wikilink")
 
 Old API
 -------

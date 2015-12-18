@@ -17,7 +17,7 @@ Members
 Hardware
 --------
 
-![](Schematic.png "Schematic.png")
+![](Schematic.png.md "Schematic.png.md")
 
 This is our current design for the hardware side of the robot. We have divided the robot up into five main components: Ball Selector (red), Ball Sorter (green), Connect4 Board (blue), Ball Collector (purple), and Elevator System (orange). Each of these components will be controlled by an Arduino (see software section for details). The entire robot with the exception of the elevator system will be sandwiched between two pieces of plexiglass (50mm apart) to provide structural support. We will connect the elevator system with the rest of the robot using PVC pipes.
 
@@ -51,9 +51,9 @@ We plan to use Raspberry-Pi to communicate with the nyc server and handle user i
 Display Case
 ------------
 
-![](351soda.png "351soda.png")
+![](351soda.png.md "351soda.png.md")
 
-![](351soda2.png "351soda2.png")
+![](351soda2.png.md "351soda2.png.md")
 
 Current Progress
 ----------------

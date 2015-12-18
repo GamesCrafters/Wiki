@@ -16,7 +16,7 @@ There are two immediately visible problems with the current implementation. The 
 Solution
 --------
 
-[Dan Garcia](Dan_Garcia "wikilink") has devised a system to solve the latter problem. He proposes that the first bit of every record should be used to designate whether the record is being used; 0 if it is, 1 if it is not. In cases where a 0 is the first bit, the next n-1 bits, where n is the size of the record in bits, are used to represent the game values for the record. In the event that a gap must be represented, a 1 is used as the first bit; this indicates that the standard record format will not be used. Any number of 1s can follow this initial 1. The number of 1s including the first 1 will represent the number of bits used to represent the size of the gap between utilized records. The following is an example of the counting system:
+[Dan Garcia.md](Dan_Garcia.md "wikilink") has devised a system to solve the latter problem. He proposes that the first bit of every record should be used to designate whether the record is being used; 0 if it is, 1 if it is not. In cases where a 0 is the first bit, the next n-1 bits, where n is the size of the record in bits, are used to represent the game values for the record. In the event that a gap must be represented, a 1 is used as the first bit; this indicates that the standard record format will not be used. Any number of 1s can follow this initial 1. The number of 1s including the first 1 will represent the number of bits used to represent the size of the gap between utilized records. The following is an example of the counting system:
 
 10\_ 1-2 (Range of gaps representable)
 

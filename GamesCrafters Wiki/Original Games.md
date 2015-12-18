@@ -3,14 +3,14 @@ Original Games
 
 Currently, GamesCrafters only has modules for existing games (a.k.a. games available in places other than GamesCrafters). This page is for people who would be interesting in creating or simply brainstorming on implementing brand new, original games for GamesCrafters. Besides, of course, the joy of inventing a never-before-seen game (as well as the bragging rights if it actually becomes popular), this will also give Gamesman a creative edge over other game-theory software when it goes public.
 
-If this actually gets to be a group of us, we could probably work with the [Game analysis](Game_analysis "wikilink") group in [Architecture](Architecture "wikilink") to try to come up with what truly makes a game "fun". Knowing that would be a nice way to develop games that are both addicting and fun!
+If this actually gets to be a group of us, we could probably work with the [Game analysis.md](Game_analysis.md "wikilink") group in [Architecture.md](Architecture.md "wikilink") to try to come up with what truly makes a game "fun". Knowing that would be a nice way to develop games that are both addicting and fun!
 
 Feel free to update this Wiki with any ideas or brainstorms!
 
 "Registers" (or "Max", apparently)
 ----------------------------------
 
-Creator: [MaxD](User:MaxD "wikilink")
+Creator: [MaxD.md](User:MaxD "wikilink")
 
 This is the game I talked about during the GamesCrafter's meeting. It's a very simple Computer-Science-type game, with MIPS-like registers as discussed in CS61C. It's still very much in development and any ideas are welcome as well as encouraged.
 

@@ -1,5 +1,5 @@
 Gamesman-java
 =============
 
-1.  REDIRECT [GamesmanJava](GamesmanJava "wikilink")
+1.  REDIRECT [GamesmanJava.md](GamesmanJava.md "wikilink")
 

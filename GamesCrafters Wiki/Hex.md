@@ -33,4 +33,4 @@ John Nash demonstrated that Hex can never end in a tie. Simple strategy-stealing
 Strategy
 --------
 
-A winning strategy is known for boards up to and including 9 x 9. It has been solved (strongly) for all boards up to and including 6 x 6 (Maybe [ODeepaBlue](ODeepaBlue "wikilink") will change that...).
+A winning strategy is known for boards up to and including 9 x 9. It has been solved (strongly) for all boards up to and including 6 x 6 (Maybe [ODeepaBlue.md](ODeepaBlue.md "wikilink") will change that...).

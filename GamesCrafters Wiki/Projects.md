@@ -9,56 +9,56 @@ For Calday
 **Project Proposals/Ideas**
 ---------------------------
 
--   [Cal Day Shifts List - Joey Corless, 2006-04-17](Cal_Day_Shifts_List_-_Joey_Corless,_2006-04-17 "wikilink")
--   [UndoMove and GenerateUndoMove - Mario Tanev, 2/6/2005](UndoMove_and_GenerateUndoMove_-_Mario_Tanev,_2/6/2005 "wikilink")
--   [Makefile changes - Evan Huang, 12/14/2005](Makefile_changes_-_Evan_Huang,_12/14/2005 "wikilink")
--   [Uniform database save/restore via traversal abstraction - Mario Tanev, 12/20/2005](Uniform_database_save/restore_via_traversal_abstraction_-_Mario_Tanev,_12/20/2005 "wikilink")
--   [Make -O0 the default optimization flag - Mario Tanev, 12/26/2005](Make_-O0_the_default_optimization_flag_-_Mario_Tanev,_12/26/2005 "wikilink")
--   [Add UninitializeGame abstraction - Mario Tanev, 12/26/2005](Add_UninitializeGame_abstraction_-_Mario_Tanev,_12/26/2005 "wikilink")
--   [Add board constructor/destructor/save/restore abstraction as substitute for GPS - Mario Tanev, 01/13/2006](Add_board_constructor/destructor/save/restore_abstraction_as_substitute_for_GPS_-_Mario_Tanev,_01/13/2006 "wikilink")
--   [A General GUI for basic games using only C function calls - Joey Corless, 2/27/2006](A_General_GUI_for_basic_games_using_only_C_function_calls_-_Joey_Corless,_2/27/2006 "wikilink")
+-   [Cal Day Shifts List - Joey Corless, 2006-04-17.md](Cal_Day_Shifts_List_-_Joey_Corless,_2006-04-17.md "wikilink")
+-   [UndoMove and GenerateUndoMove - Mario Tanev, 2-6-2005.md](UndoMove_and_GenerateUndoMove_-_Mario_Tanev,_2-6-2005.md "wikilink")
+-   [Makefile changes - Evan Huang, 12-14-2005.md](Makefile_changes_-_Evan_Huang,_12-14-2005.md "wikilink")
+-   [Uniform database save-restore via traversal abstraction - Mario Tanev, 12-20-2005.md](Uniform_database_save-restore_via_traversal_abstraction_-_Mario_Tanev,_12-20-2005.md "wikilink")
+-   [Make -O0 the default optimization flag - Mario Tanev, 12-26-2005.md](Make_-O0_the_default_optimization_flag_-_Mario_Tanev,_12-26-2005.md "wikilink")
+-   [Add UninitializeGame abstraction - Mario Tanev, 12-26-2005.md](Add_UninitializeGame_abstraction_-_Mario_Tanev,_12-26-2005.md "wikilink")
+-   [Add board constructor-destructor-save-restore abstraction as substitute for GPS - Mario Tanev, 01-13-2006.md](Add_board_constructor-destructor-save-restore_abstraction_as_substitute_for_GPS_-_Mario_Tanev,_01-13-2006.md "wikilink")
+-   [A General GUI for basic games using only C function calls - Joey Corless, 2-27-2006.md](A_General_GUI_for_basic_games_using_only_C_function_calls_-_Joey_Corless,_2-27-2006.md "wikilink")
 -   TODO: Article on Tie vs. Draw
 
 <!-- -->
 
--   **[Architecture](Architecture "wikilink")**
-    -   [Gamesman++](GamesmanPlusPlus "wikilink") {R&D = Robert&David, Max, Casey, Ben, Filip, Evan, Alan}
+-   **[Architecture.md](Architecture.md "wikilink")**
+    -   [Gamesman++.md](GamesmanPlusPlus "wikilink") {R&D = Robert&David, Max, Casey, Ben, Filip, Evan, Alan}
         -   Requirements: C++, some experience with gamesman
         -   6 components (shells (java), framework (sr), testing, runtime (sr), modules, games & documentation)
         -   Dev mtgs monday @ 5:30pm in 6th floor west alcoves
-    -   [Networking](Networking "wikilink") {Hsiu-fan, Filip, Matt, Ramesh, Ofer}
+    -   [Networking.md](Networking.md "wikilink") {Hsiu-fan, Filip, Matt, Ramesh, Ofer}
         -   Deploying server + eharmony
     -   Database {Ofer, Evan, Ken}
         -   MERGE!!! File DB, Zero memory player, Virtual mem {Evan, Ken}
         -   Serving database through mySQL
         -   History and accounts (??)
     -   Analysis + Interestingness {Matt + Omar}
-    -   [Static Evaluator](Static_Evaluator "wikilink") {Michael, Brian, Jonathan, Davide}
+    -   [Static Evaluator.md](Static_Evaluator.md "wikilink") {Michael, Brian, Jonathan, Davide}
         -   Way of evaluating a board and returning a value (-1 &lt;-&gt; 1)
         -   File format for static evaluator, learning algorithms
-    -   [Autogui](Autogui "wikilink") (Keaton, Pat, Kevin, Michael, Alex)
+    -   [Autogui.md](Autogui.md "wikilink") (Keaton, Pat, Kevin, Michael, Alex)
     -   WinByUpdating (Alan)
     -   Autosymmetry (Albert)
 
 <!-- -->
 
--   **[ODeepaBlue](ODeepaBlue "wikilink")** (Parallelization) {Ofer, Deepa, Max}
+-   **[ODeepaBlue.md](ODeepaBlue.md "wikilink")** (Parallelization) {Ofer, Deepa, Max}
     -   hadoop map-reduce!
     -   multi-thread
 
 <!-- -->
 
--   **[Maximization](Max "wikilink")** {Max, Ofer, Manu, Nishant}
+-   **[Maximization.md](Max "wikilink")** {Max, Ofer, Manu, Nishant}
     -   GREAT NEW OPPORTUNITIES FOR NEW STUDENTS
     -   You would take a game that doesn't solve and tierify and SOLVE
-    -   [Quarto!](Quarto_Tierify "wikilink") (Yanpei, Beno)
-    -   [Pentago](Pentago_Tierify "wikilink") (Jun Kang)
+    -   [Quarto!.md](Quarto_Tierify "wikilink") (Yanpei, Beno)
+    -   [Pentago.md](Pentago_Tierify "wikilink") (Jun Kang)
     -   Maximize Toot-n-Otto + docs (Zach)
     -   Your name here!
 
 <!-- -->
 
--   **[Retro](Retro "wikilink")** {Eudean (Foxes, 3Spot), Larry (Connections), Yuly, Simon, Albert}
+-   **[Retro.md](Retro.md "wikilink")** {Eudean (Foxes, 3Spot), Larry (Connections), Yuly, Simon, Albert}
     -   Finish goldifying 6 games, foxes is almost done.
     -   Tcl/Tk (we'll teach), C (you should know)
     -   Fix things that are broken
@@ -69,13 +69,13 @@ For Calday
 
 <!-- -->
 
--   **[Graphics](Graphics "wikilink")** {Sean, David, Davide, Brian}
+-   **[Graphics.md](Graphics.md "wikilink")** {Sean, David, Davide, Brian}
     -   Some Retro stuff
-    -   [SeanPen Interface](Digital_Pen_Interface "wikilink") (Michael, Sean)
-    -   [Auto-analysis](Auto-analysis "wikilink") to printout
+    -   [SeanPen Interface.md](Digital_Pen_Interface "wikilink") (Michael, Sean)
+    -   [Auto-analysis.md](Auto-analysis.md "wikilink") to printout
     -   Play human-human-but-solve
-    -   [T-shirt design](T-shirt_design "wikilink") committee
-    -   [CalDay](CalDay "wikilink") coordinator {Jerry, Omar, Patricia, Kevin, Daniel, Andrew}
+    -   [T-shirt design.md](T-shirt_design.md "wikilink") committee
+    -   [CalDay.md](CalDay.md "wikilink") coordinator {Jerry, Omar, Patricia, Kevin, Daniel, Andrew}
 
 <!-- -->
 
@@ -95,7 +95,7 @@ For Calday
 
 <!-- -->
 
--   **[Docs](Documentation "wikilink")** {Jerry, Kevin, Diana, Philip, Alex, Yanpei, Andrew}
+-   **[Docs.md](Documentation "wikilink")** {Jerry, Kevin, Diana, Philip, Alex, Yanpei, Andrew}
     -   Human docs for website
         -   HUMAN analysis
         -   History for games that don't have it
@@ -145,6 +145,6 @@ Promises for post-8:30 folks
 -   **Deepa** (ODeepaBlue Level files done + docs + tests | integrated + bagh chal?)
 -   **Alan & Brian** (maximize?)
 -   **Matt** (Finish network db, eharmony client, update gui and text client to play against another player online)
--   **[Evan](User:Hevanm "wikilink")** (Finish improving the disk-based filedb/VM system √ ||| Write Docs)
+-   **[Evan.md](User:Hevanm "wikilink")** (Finish improving the disk-based filedb/VM system √ ||| Write Docs)
 -   **BEST OF THE BEST** : eudean, ramesh, filip, davidp, robert, ofer for staying to the end!
 

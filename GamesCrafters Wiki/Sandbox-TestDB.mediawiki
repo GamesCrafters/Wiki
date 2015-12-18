@@ -2,7 +2,7 @@
 =
 This page is for wiki testing purposes.
 
-[[Tic-Tac-Toe (Solved Games) | Tic-Tac-Toe]]
+[[Tic-Tac-Toe (Solved Games) | Tic-Tac-Toe.md]]
 
 {{#ifexpr: | hello | world}}
 

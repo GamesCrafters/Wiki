@@ -1,44 +1,44 @@
 Wishlist
 ========
 
--   **[Architecture](Architecture "wikilink")**
-    -   [Gamesman++](GamesmanPlusPlus "wikilink") {R&D = Robert&David, Max, Casey, Ben, Filip, Evan, Alan}
+-   **[Architecture.md](Architecture.md "wikilink")**
+    -   [Gamesman++.md](GamesmanPlusPlus "wikilink") {R&D = Robert&David, Max, Casey, Ben, Filip, Evan, Alan}
         -   Requirements: C++, some experience with gamesman
         -   6 components (shells (java), framework (sr), testing, runtime (sr), modules, games & documentation)
         -   Dev mtgs monday @ 5:30pm in 6th floor west alcoves
-    -   [Networking](Networking "wikilink") {Hsiu-fan, Filip, Matt, Ramesh, Ofer}
+    -   [Networking.md](Networking.md "wikilink") {Hsiu-fan, Filip, Matt, Ramesh, Ofer}
         -   Deploying server + eharmony
     -   Database {Ofer, Evan, Ken}
         -   MERGE!!! File DB, Zero memory player, Virtual mem {Evan, Ken}
         -   Serving database through mySQL
         -   History and accounts (??)
     -   Analysis + Interestingness {Matt + Omar}
-    -   [Static Evaluator](Static_Evaluator "wikilink") {Michael, Brian, Jonathan, Davide}
+    -   [Static Evaluator.md](Static_Evaluator.md "wikilink") {Michael, Brian, Jonathan, Davide}
         -   Way of evaluating a board and returning a value (-1 &lt;-&gt; 1)
         -   File format for static evaluator, learning algorithms
-    -   [Autogui](Autogui "wikilink") (Keaton, Pat, Kevin, Michael, Alex)
+    -   [Autogui.md](Autogui.md "wikilink") (Keaton, Pat, Kevin, Michael, Alex)
     -   WinByUpdating (Alan)
     -   Autosymmetry (Albert)
 
 <!-- -->
 
--   **[ODeepaBlue](ODeepaBlue "wikilink")** (Parallelization) {Ofer, Deepa, Max}
+-   **[ODeepaBlue.md](ODeepaBlue.md "wikilink")** (Parallelization) {Ofer, Deepa, Max}
     -   hadoop map-reduce!
     -   multi-thread
 
 <!-- -->
 
--   **[Maximization](Max "wikilink")** {Max, Ofer, Manu, Nishant}
+-   **[Maximization.md](Max "wikilink")** {Max, Ofer, Manu, Nishant}
     -   GREAT NEW OPPORTUNITIES FOR NEW STUDENTS
     -   You would take a game that doesn't solve and tierify and SOLVE
-    -   [Quarto!](Quarto_Tierify "wikilink") (Yanpei, Beno)
-    -   [Pentago](Pentago_Tierify "wikilink") (Jun Kang)
+    -   [Quarto!.md](Quarto_Tierify "wikilink") (Yanpei, Beno)
+    -   [Pentago.md](Pentago_Tierify "wikilink") (Jun Kang)
     -   Maximize Toot-n-Otto + docs (Zach)
     -   Your name here!
 
 <!-- -->
 
--   **[Retro](Retro "wikilink")** {Eudean (Foxes, 3Spot), Larry (Connections), Yuly, Simon, Albert}
+-   **[Retro.md](Retro.md "wikilink")** {Eudean (Foxes, 3Spot), Larry (Connections), Yuly, Simon, Albert}
     -   Finish goldifying 6 games, foxes is almost done.
     -   Tcl/Tk (we'll teach), C (you should know)
     -   Fix things that are broken
@@ -49,13 +49,13 @@ Wishlist
 
 <!-- -->
 
--   **[Graphics](Graphics "wikilink")** {Sean, David, Davide, Brian}
+-   **[Graphics.md](Graphics.md "wikilink")** {Sean, David, Davide, Brian}
     -   Some Retro stuff
-    -   [SeanPen Interface](Digital_Pen_Interface "wikilink") (Michael, Sean)
-    -   [Auto-analysis](Auto-analysis "wikilink") to printout
+    -   [SeanPen Interface.md](Digital_Pen_Interface "wikilink") (Michael, Sean)
+    -   [Auto-analysis.md](Auto-analysis.md "wikilink") to printout
     -   Play human-human-but-solve
-    -   [T-shirt design](T-shirt_design "wikilink") committee
-    -   [CalDay](CalDay "wikilink") coordinator {Jerry, Omar, Patricia, Kevin, Daniel, Andrew}
+    -   [T-shirt design.md](T-shirt_design.md "wikilink") committee
+    -   [CalDay.md](CalDay.md "wikilink") coordinator {Jerry, Omar, Patricia, Kevin, Daniel, Andrew}
 
 <!-- -->
 
@@ -75,7 +75,7 @@ Wishlist
 
 <!-- -->
 
--   **[Docs](Documentation "wikilink")** {Jerry, Kevin, Diana, Philip, Alex, Yanpei, Andrew}
+-   **[Docs.md](Documentation "wikilink")** {Jerry, Kevin, Diana, Philip, Alex, Yanpei, Andrew}
     -   Human docs for website
         -   HUMAN analysis
         -   History for games that don't have it

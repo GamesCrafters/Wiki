@@ -10,8 +10,8 @@ About the Project
 
 ### Members
 
--   [William Shen](User:wshen "wikilink")
--   [Robert Marks](User:rmarks "wikilink")
+-   [William Shen.md](User:wshen "wikilink")
+-   [Robert Marks.md](User:rmarks "wikilink")
 
 To-Do
 -----

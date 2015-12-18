@@ -6,16 +6,16 @@ Please record your game under each applicable category, and create newer categor
 Impartial (Grundy) games
 ========================
 
--   [1, 2, ..., 10](1,_2,_...,_10 "wikilink")
--   [1, 2, ..., n](1,_2,_...,_n "wikilink")
--   [Nim](Nim "wikilink")
--   [Paradux](Paradux "wikilink")
--   [Seega](Seega "wikilink")
+-   [1, 2, ..., 10.md](1,_2,_...,_10.md "wikilink")
+-   [1, 2, ..., n.md](1,_2,_...,_n.md "wikilink")
+-   [Nim.md](Nim.md "wikilink")
+-   [Paradux.md](Paradux.md "wikilink")
+-   [Seega.md](Seega.md "wikilink")
 
 Impartial games which are treated as partizan (have ties)
 =========================================================
 
--   [Quarto](Quarto "wikilink")
+-   [Quarto.md](Quarto.md "wikilink")
 
 Loopy games
 ===========
@@ -29,10 +29,10 @@ Games with binary characteristics
 Games with one characteristic dimension
 ---------------------------------------
 
--   [Tic-Tac-Toe](Tic-Tac-Toe "wikilink")
+-   [Tic-Tac-Toe.md](Tic-Tac-Toe.md "wikilink")
 
 Games with multiple characteristic dimensions
 ---------------------------------------------
 
--   [Quarto](Quarto "wikilink")
+-   [Quarto.md](Quarto.md "wikilink")
 

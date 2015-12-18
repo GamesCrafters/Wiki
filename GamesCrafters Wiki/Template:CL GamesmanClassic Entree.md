@@ -1,4 +1,4 @@
 Template:CL GamesmanClassic Entree
 ==================================
 
-[Tic-Tac-Toe](Tic-Tac-Toe "wikilink") || {{\#if:1|hello}} || {{\#if: |hello}} || || || || ? || ? || ? || ? || ? || ? || ? || ? || ? || ? || ? || ? || ? || ? || ? || ?
+[Tic-Tac-Toe.md](Tic-Tac-Toe.md "wikilink") || {{\#if:1|hello}} || {{\#if: |hello}} || || || || ? || ? || ? || ? || ? || ? || ? || ? || ? || ? || ? || ? || ? || ? || ? || ?

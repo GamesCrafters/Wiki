@@ -3,4 +3,4 @@
 style
 =====
 
-"background:\#00ff00; color:\#ffffff; font-size: xx-small" align="center" | [ ](stuff "wikilink")
+"background:\#00ff00; color:\#ffffff; font-size: xx-small" align="center" | [ .md](stuff "wikilink")

@@ -32,4 +32,4 @@ Tier Diagram
 
 The server tier is composed of the AI and API sections, while the Networking and Frontend sections make up the client tier.
 
-![](gamesman-web-tiers.png "gamesman-web-tiers.png")
+![](gamesman-web-tiers.png.md "gamesman-web-tiers.png.md")

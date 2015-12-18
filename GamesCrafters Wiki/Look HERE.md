@@ -7,8 +7,8 @@ I do not have very much time these days to use the computer and every once in a 
 
 For example:
 
--   [Look HERE](Look_HERE "wikilink") Edited by Ofer on July 27
--   [Database Verification Writeup Spring 2011](Database_Verification_Writeup_Spring_2011 "wikilink") Edited by Ofer on June 10
+-   [Look HERE.md](Look_HERE.md "wikilink") Edited by Ofer on July 27
+-   [Database Verification Writeup Spring 2011.md](Database_Verification_Writeup_Spring_2011.md "wikilink") Edited by Ofer on June 10
 -   etc
 
 One more idea: I remember one session where a Gamescrafters Alum came back and looked at what we had done and was like: "Whoaaaaaaaaaaaa". Although I cant really come back to the room as much as I would like, I would still like that same "Whoaaaa" experience. I know you guys do the whole end of semester showcase thing for Dan, but what about the rest of us? For an example from my day, one thing that I thought was really cool: the dots and boxes pen (that you played a real game on paper and gamesman 'watched'). I realize that you cant really distribute the pen on the internet, but a cool video capturing the demonstration would have been awesome. Then you could have a page on the Gamescrafters sites with a demo of all the projects online to share with everyone.

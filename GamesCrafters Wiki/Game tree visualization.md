@@ -48,4 +48,4 @@ Fortunately, such large games are almost always loopy, and can thus be broken in
 Project team
 ------------
 
-[Alan Wu](User:Alanwu "wikilink")
+[Alan Wu.md](User:Alanwu "wikilink")

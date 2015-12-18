@@ -14,7 +14,7 @@ About the Project
 
 ### Members
 
--   [Kevin Jorgensen](User:Kjorgensen "wikilink")
+-   [Kevin Jorgensen.md](User:Kjorgensen "wikilink")
     -   iOS mobile app team lead
 
 To-Do

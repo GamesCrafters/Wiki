@@ -75,7 +75,7 @@ FROM HERE ON IS JUST LAST YEAR's CONTENT! For hardware, we mostly focused on the
 
 ### Design
 
-![A placeholder](FinalDesign.png "A placeholder")
+![A placeholder.md](FinalDesign.png "A placeholder.md")
 
 -   **Strengths:**
     -   Simple to implement

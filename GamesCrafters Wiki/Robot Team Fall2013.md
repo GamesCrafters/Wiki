@@ -15,7 +15,7 @@ Binary Sorter
 Color Sensor
 ------------
 
-![alt text](Color sensor Spr13.png "alt text")
+![alt text.md](Color sensor Spr13.png "alt text.md")
 
 Ball Selector
 -------------

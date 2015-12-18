@@ -9,7 +9,7 @@ Within the last year, the Gamesman Wiki has been infiltrated by spam bots that c
 How it Started
 --------------
 
-The project started at the beginning of the Spring 2009 semester as a part of the enhanced wiki documentation initiative. (See the [Checklist Information](Checklist_Information "wikilink") page) The unhealthy state of the wiki was first brought to the attention of the group in the second week of instruction. Since the wiki is viewed as the central resource for all of the Gamesman information, it seemed to be a good idea to make the cleanup task part of the same project.
+The project started at the beginning of the Spring 2009 semester as a part of the enhanced wiki documentation initiative. (See the [Checklist Information.md](Checklist_Information.md "wikilink") page) The unhealthy state of the wiki was first brought to the attention of the group in the second week of instruction. Since the wiki is viewed as the central resource for all of the Gamesman information, it seemed to be a good idea to make the cleanup task part of the same project.
 
 Current Status
 --------------

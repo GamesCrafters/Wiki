@@ -1,4 +1,4 @@
 Quarto Tierify
 ==============
 
-![](foo.jpg "foo.jpg")
+![](foo.jpg.md "foo.jpg.md")

@@ -10,4 +10,4 @@ Introduction
 
 The previous iPhone client is the result of the works of others and lead by Kevin Jorgensen. While I started fresh, I often referenced the old code base and at times, directly copied from the previous version.
 
-Specifically, I worked on a new front-end for Connect-4, which was originally implemented in Fa2009 see [GamesmanMobile](GamesmanMobile "wikilink") for more information.
+Specifically, I worked on a new front-end for Connect-4, which was originally implemented in Fa2009 see [GamesmanMobile.md](GamesmanMobile.md "wikilink") for more information.

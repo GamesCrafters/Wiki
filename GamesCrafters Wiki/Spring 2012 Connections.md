@@ -10,8 +10,8 @@ About the Project
 
 ### Members
 
--   [Bryan Chu](User:bryanchu "wikilink")
--   [Jack Long](User:jackrlong "wikilink")
+-   [Bryan Chu.md](User:bryanchu "wikilink")
+-   [Jack Long.md](User:jackrlong "wikilink")
 
 To-Do
 -----

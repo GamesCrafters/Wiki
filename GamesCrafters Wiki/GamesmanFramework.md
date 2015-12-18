@@ -9,7 +9,7 @@ The Gamesman Framework (GF) would contain all of the libraries necessary for ext
 API Proposals
 -------------
 
-It's now time to start fleshing out the API for the Framework, which will allow us to start developing the rest of [Gamesman++](GamesmanPlusPlus "wikilink")! Here are some initial thoughts...
+It's now time to start fleshing out the API for the Framework, which will allow us to start developing the rest of [Gamesman++.md](GamesmanPlusPlus "wikilink")! Here are some initial thoughts...
 
 ### Gamesman++ Primitives
 

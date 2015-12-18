@@ -17,7 +17,7 @@ In anticipation of David's upcoming move to graduate school, Lewin and I have vo
 
 ### Members
 
--   [David Huang](User:Pathfinder "wikilink")
+-   [David Huang.md](User:Pathfinder "wikilink")
 
 ### Done
 

@@ -16,7 +16,7 @@ Most games have some form of symmetry, such as rotation, horizontal reflection o
 
 ### Members
 
--   [Hurshal Patel](User:Choochootrain "wikilink")
+-   [Hurshal Patel.md](User:Choochootrain "wikilink")
 
 To-Do
 -----

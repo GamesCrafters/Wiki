@@ -21,7 +21,7 @@ Be the first to place your 2 Buckets on top of 2 Sand Castles, where a Sand Cast
 -   Each player chooses one of the two colors: Red or Blue.
 -   Small and Large Sand Piles are shared pieces between the two sides.
 -   Players cannot reverse a move that was just made by an opponent.
--   Gamplay proceeds by each player taking turns making a [valid move](Topitop#Valid_Moves "wikilink") until the [object of the game](Topitop#Object_of_the_Game "wikilink") has been fulfilled by either player.
+-   Gamplay proceeds by each player taking turns making a [valid move.md](Topitop#Valid_Moves "wikilink") until the [object of the game.md](Topitop#Object_of_the_Game "wikilink") has been fulfilled by either player.
 
 ### Valid Moves
 
