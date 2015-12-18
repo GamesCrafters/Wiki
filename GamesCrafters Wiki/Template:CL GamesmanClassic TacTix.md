@@ -1,0 +1,2 @@
+Template:CL GamesmanClassic TacTix
+==================================

@@ -1,0 +1,46 @@
+=Sandbox-TestDB
+=
+This page is for wiki testing purposes.
+
+[[Tic-Tac-Toe (Solved Games) | Tic-Tac-Toe]]
+
+{{#ifexpr: | hello | world}}
+
+==Gamesman Classic Checklist==
+
+
+{| {{Checklist_Header | Gamesman Classic Checklist (In percent % complete)}}
+|-
+! width=20% | Name 
+! 1 
+! 2 
+! 3 
+! 4 
+! 5 
+! 6 
+! 7 
+! 8 
+! 9 
+! 10 
+! 11 
+! 12 
+! 13 
+! 14 
+! 15 
+! 16 
+! 17 
+! 18 
+! 19 
+! 20 
+! 21
+|-
+| {{CL_GamesmanClassic_DirectLink_Tic-Tac-Toe}}
+|-
+| {{CL_GamesmanClassic_DirectLink_Connect-Four}}
+|-
+| {{CL_GamesmanClassic_DirectLink_Three-Man-Morris}}
+|-
+| {{CL_GamesmanClassic_DirectLink_Ataxx}}
+|-
+| {{CL_GamesmanClassic_DirectLink_TacTix}}
+|} <!-- Add new entry here. -->
