@@ -7,7 +7,7 @@ Groups
 
 [Max.md](Max.md "wikilink") (tierify) Current Team Lead(s): Max Delgadillo (max817@berkeley.edu).
 
-[New Games.md](New_Games.md "wikilink") Current Team Lead(s): Brian Zimmer, Alan Roytman, Yanpei Chen.
+[New\_Games.md](New_Games.md "wikilink") Current Team Lead(s): Brian Zimmer, Alan Roytman, Yanpei Chen.
 
 [Bugs.md](Bugs.md "wikilink") Current Team Lead(s): ??.
 

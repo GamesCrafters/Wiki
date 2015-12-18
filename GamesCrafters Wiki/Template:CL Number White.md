@@ -1,2 +1,0 @@
-Template:CL Number White
-========================

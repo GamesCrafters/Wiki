@@ -1,5 +1,0 @@
-Welcome Fa2007
-==============
-
-1.  REDIRECT [Welcome New GamesCrafters!.md](Welcome_New_GamesCrafters!.md "wikilink")
-

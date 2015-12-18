@@ -1,4 +1,0 @@
-Othello GUI Improvements
-========================
-
-hi

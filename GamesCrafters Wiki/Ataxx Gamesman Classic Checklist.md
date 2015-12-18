@@ -1,2 +1,0 @@
-Ataxx Gamesman Classic Checklist
-================================

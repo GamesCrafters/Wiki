@@ -1,2 +1,0 @@
-TacTix Gamesman Classic Checklist
-=================================

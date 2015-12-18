@@ -9,14 +9,14 @@ For Calday
 **Project Proposals/Ideas**
 ---------------------------
 
--   [Cal Day Shifts List - Joey Corless, 2006-04-17.md](Cal_Day_Shifts_List_-_Joey_Corless,_2006-04-17.md "wikilink")
--   [UndoMove and GenerateUndoMove - Mario Tanev, 2-6-2005.md](UndoMove_and_GenerateUndoMove_-_Mario_Tanev,_2-6-2005.md "wikilink")
--   [Makefile changes - Evan Huang, 12-14-2005.md](Makefile_changes_-_Evan_Huang,_12-14-2005.md "wikilink")
--   [Uniform database save-restore via traversal abstraction - Mario Tanev, 12-20-2005.md](Uniform_database_save-restore_via_traversal_abstraction_-_Mario_Tanev,_12-20-2005.md "wikilink")
--   [Make -O0 the default optimization flag - Mario Tanev, 12-26-2005.md](Make_-O0_the_default_optimization_flag_-_Mario_Tanev,_12-26-2005.md "wikilink")
--   [Add UninitializeGame abstraction - Mario Tanev, 12-26-2005.md](Add_UninitializeGame_abstraction_-_Mario_Tanev,_12-26-2005.md "wikilink")
--   [Add board constructor-destructor-save-restore abstraction as substitute for GPS - Mario Tanev, 01-13-2006.md](Add_board_constructor-destructor-save-restore_abstraction_as_substitute_for_GPS_-_Mario_Tanev,_01-13-2006.md "wikilink")
--   [A General GUI for basic games using only C function calls - Joey Corless, 2-27-2006.md](A_General_GUI_for_basic_games_using_only_C_function_calls_-_Joey_Corless,_2-27-2006.md "wikilink")
+-   [Cal\_Day\_Shifts\_List\_-\_Joey\_Corless,\_2006-04-17.md](Cal_Day_Shifts_List_-_Joey_Corless,_2006-04-17.md "wikilink")
+-   [UndoMove\_and\_GenerateUndoMove\_-\_Mario\_Tanev,\_2-6-2005.md](UndoMove_and_GenerateUndoMove_-_Mario_Tanev,_2-6-2005.md "wikilink")
+-   [Makefile\_changes\_-\_Evan\_Huang,\_12-14-2005.md](Makefile_changes_-_Evan_Huang,_12-14-2005.md "wikilink")
+-   [Uniform\_database\_save-restore\_via\_traversal\_abstraction\_-\_Mario\_Tanev,\_12-20-2005.md](Uniform_database_save-restore_via_traversal_abstraction_-_Mario_Tanev,_12-20-2005.md "wikilink")
+-   [Make\_-O0\_the\_default\_optimization\_flag\_-\_Mario\_Tanev,\_12-26-2005.md](Make_-O0_the_default_optimization_flag_-_Mario_Tanev,_12-26-2005.md "wikilink")
+-   [Add\_UninitializeGame\_abstraction\_-\_Mario\_Tanev,\_12-26-2005.md](Add_UninitializeGame_abstraction_-_Mario_Tanev,_12-26-2005.md "wikilink")
+-   [Add\_board\_constructor-destructor-save-restore\_abstraction\_as\_substitute\_for\_GPS\_-\_Mario\_Tanev,\_01-13-2006.md](Add_board_constructor-destructor-save-restore_abstraction_as_substitute_for_GPS_-_Mario_Tanev,_01-13-2006.md "wikilink")
+-   [A\_General\_GUI\_for\_basic\_games\_using\_only\_C\_function\_calls\_-\_Joey\_Corless,\_2-27-2006.md](A_General_GUI_for_basic_games_using_only_C_function_calls_-_Joey_Corless,_2-27-2006.md "wikilink")
 -   TODO: Article on Tie vs. Draw
 
 <!-- -->
@@ -33,7 +33,7 @@ For Calday
         -   Serving database through mySQL
         -   History and accounts (??)
     -   Analysis + Interestingness {Matt + Omar}
-    -   [Static Evaluator.md](Static_Evaluator.md "wikilink") {Michael, Brian, Jonathan, Davide}
+    -   [Static\_Evaluator.md](Static_Evaluator.md "wikilink") {Michael, Brian, Jonathan, Davide}
         -   Way of evaluating a board and returning a value (-1 &lt;-&gt; 1)
         -   File format for static evaluator, learning algorithms
     -   [Autogui.md](Autogui.md "wikilink") (Keaton, Pat, Kevin, Michael, Alex)
@@ -71,10 +71,10 @@ For Calday
 
 -   **[Graphics.md](Graphics.md "wikilink")** {Sean, David, Davide, Brian}
     -   Some Retro stuff
-    -   [SeanPen Interface.md](Digital_Pen_Interface "wikilink") (Michael, Sean)
+    -   [SeanPen\_Interface.md](Digital_Pen_Interface "wikilink") (Michael, Sean)
     -   [Auto-analysis.md](Auto-analysis.md "wikilink") to printout
     -   Play human-human-but-solve
-    -   [T-shirt design.md](T-shirt_design.md "wikilink") committee
+    -   [T-shirt\_design.md](T-shirt_design.md "wikilink") committee
     -   [CalDay.md](CalDay.md "wikilink") coordinator {Jerry, Omar, Patricia, Kevin, Daniel, Andrew}
 
 <!-- -->

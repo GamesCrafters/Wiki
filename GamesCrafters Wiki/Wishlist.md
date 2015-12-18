@@ -13,7 +13,7 @@ Wishlist
         -   Serving database through mySQL
         -   History and accounts (??)
     -   Analysis + Interestingness {Matt + Omar}
-    -   [Static Evaluator.md](Static_Evaluator.md "wikilink") {Michael, Brian, Jonathan, Davide}
+    -   [Static\_Evaluator.md](Static_Evaluator.md "wikilink") {Michael, Brian, Jonathan, Davide}
         -   Way of evaluating a board and returning a value (-1 &lt;-&gt; 1)
         -   File format for static evaluator, learning algorithms
     -   [Autogui.md](Autogui.md "wikilink") (Keaton, Pat, Kevin, Michael, Alex)
@@ -51,10 +51,10 @@ Wishlist
 
 -   **[Graphics.md](Graphics.md "wikilink")** {Sean, David, Davide, Brian}
     -   Some Retro stuff
-    -   [SeanPen Interface.md](Digital_Pen_Interface "wikilink") (Michael, Sean)
+    -   [SeanPen\_Interface.md](Digital_Pen_Interface "wikilink") (Michael, Sean)
     -   [Auto-analysis.md](Auto-analysis.md "wikilink") to printout
     -   Play human-human-but-solve
-    -   [T-shirt design.md](T-shirt_design.md "wikilink") committee
+    -   [T-shirt\_design.md](T-shirt_design.md "wikilink") committee
     -   [CalDay.md](CalDay.md "wikilink") coordinator {Jerry, Omar, Patricia, Kevin, Daniel, Andrew}
 
 <!-- -->

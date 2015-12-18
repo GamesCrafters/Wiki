@@ -1,5 +1,5 @@
 ServerArchitecture
 ==================
 
-1.  redirect [Server Architecture.md](Server_Architecture.md "wikilink")
+1.  redirect [Server\_Architecture.md](Server_Architecture.md "wikilink")
 

@@ -1,4 +1,0 @@
-Rearrange Hasher
-================
-
-Rearrange Hasher

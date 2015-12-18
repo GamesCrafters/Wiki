@@ -1,8 +1,0 @@
-New Games
-=========
-
-Members
--------
-
-Projects
---------
