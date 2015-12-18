@@ -3,6 +3,7 @@ import xml.dom.minidom
 import os
 import os.path
 import subprocess
+import re
 
 parser = argparse.ArgumentParser(description='Convert mediawiki export to markdown')
 parser.add_argument('input', help='MediaWiki XML export file to use as input')
@@ -21,6 +22,13 @@ def fixPath(path):
 def getText(el):
     return ''.join(node.data for node in el.childNodes
                    if node.nodeType == node.TEXT_NODE)
+
+link_re = re.compile(r'\[\[([^\]]*)\]\]')
+def preprocess(mw_src):
+    links = link_re.findall(mw_src)
+    for link in links:
+        mw_src = mw_src.replace('[[{}]]'.format(link), '[[{}.md]]'.format(fixPath(link)))
+    return mw_src
 
 with open(args.input) as export:
     with xml.dom.minidom.parse(export) as dom:
@@ -41,7 +49,8 @@ with open(args.input) as export:
             with open(mediawiki_page_name, 'w') as page_file:
                 revisions = page.getElementsByTagName('revision')
                 page_file.write('={}\n=\n'.format(fixed_title))
-                page_file.write(getText(getLoneTag(revisions[0], 'text')))
+                source = getText(getLoneTag(revisions[0], 'text'))
+                page_file.write(preprocess(source))
             markdown_page_name = os.path.join(sitename, '{}.md'.format(fixed_title))
             try:
                 subprocess.run(['pandoc',
