@@ -17,7 +17,9 @@ def getLoneTag(el, tag):
     return elements[0]
 
 def fixPath(path):
-    return path.replace('/', '-')
+    path = path.replace('/', '-')
+    path = path.replace(' ', '_')
+    return path
 
 def getText(el):
     return ''.join(node.data for node in el.childNodes
