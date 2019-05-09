@@ -1,0 +1,183 @@
+# Change! Adjustable! Writeup
+Gloria Zhao Spring 2019
+This writeup describes how the Change! game is made generic - how to read it, how to play it, how to improve it. 
+
+## Generic Change!
+### How to Use 
+Upon opening the game-specific menu, there are two new options:
+* (W)idth to change the width of the board. Width is also the number of pieces for each player.
+* (H)eight to change the height of the board. Note that the adjustable height is for the middle rows only; it doesn’t include the top and bottom rows.
+The maximum width and height are set at 4 and 3, respectively, right now because the database gets too big if you go further. See Further Recommendations on how to save space and expand in the future.
+As soon as you select a new width or height, the default board (o’s at the top row and x’s at the bottom row) is created for that board size and set as the initial position. You’re also able to pick your initial position (obviously now able to handle any size board).
+After you’ve played around with these options, go back to the main menu and select (S)olve to solve the game for this board. You’ll be able to play the game and get the summary for this game.
+
+###Values for games!
+
+
+Dimensions
+Initial Position
+Total # Positions
+Total # Moves
+Total # Wins
+Total # Loses
+WIDTH = 2
+HEIGHT = 1
+  O   O   
+ / \ / \
+-   -   -   
+ \ / \ /
+  X   X  
+Lose in 4
+79
+95
+36
+43
+WIDTH = 3
+HEIGHT = 1
+  O   O   O   
+ / \ / \ / \
+-   -   -   -   
+ \ / \ / \ /
+  X   X   X  
+
+Lose in 8 
+1407
+
+
+2327
+680
+
+
+727
+
+
+WIDTH = 4
+HEIGHT = 1
+  O   O   O   O   
+ / \ / \ / \ / \
+-   -   -   -   -   
+ \ / \ / \ / \ /
+  X   X   X   X   
+
+Win in 11 
+7272
+14094
+
+
+3583
+
+
+3689
+WIDTH = 5
+HEIGHT = 1
+  O   O   O   O   O   
+ / \ / \ / \ / \ / \
+-   -   -   -   -   -   
+ \ / \ / \ / \ / \ /
+  X   X   X   X   X  
+
+Win in 7
+21421
+
+
+47567
+
+
+9563
+11858
+
+
+WIDTH = 2
+HEIGHT = 2
+  O   O   
+ / \ / \
+-   -   -   
+| \ | \ | 
+-   -   -   
+ \ / \ /
+  X   X  
+Lose in 6
+1004
+2002
+509
+495
+
+
+WIDTH = 3
+HEIGHT = 2
+(original game)
+  O   O   O   
+ / \ / \ / \
+-   -   -   -   
+| \ | \ | \ | 
+-   -   -   -   
+ \ / \ / \ /
+  X   X   X 
+
+Lose in 14
+47233
+148057
+
+
+24986
+
+
+22247
+
+
+WIDTH = 4
+HEIGHT = 2
+  O   O   O   O   
+ / \ / \ / \ / \
+-   -   -   -   -   
+| \ | \ | \ | \ | 
+-   -   -   -   -   
+ \ / \ / \ / \ /
+  X   X   X   X  
+
+Lose in 20  
+1826666
+7641907
+944254
+882412
+WIDTH = 5
+HEIGHT = 2
+  O   O   O   O   O   
+ / \ / \ / \ / \ / \
+-   -   -   -   -   -   
+| \ | \ | \ | \ | \ | 
+-   -   -   -   -   -   
+ \ / \ / \ / \ / \ /
+  X   X   X   X   X   
+
+Win in 21
+20699969
+
+
+98541513
+
+
+10561595
+
+
+10138374
+
+
+
+
+
+### Other Generic-ified Functions
+The print position function is also now able to print boards of any width or height or position, and it looks pretty good. You can print a reference board (with all the positions numbered) or a board with the pieces on it. Primitive (which determines whether a position is winning/losing), GenerateMoves (enumerates all moves and picks the valid ones), and all the other functions all work for any size board now.
+
+### Under The Hood 
+The board representation is still an array of BlankOX's, but imagine a matrix with HEIGHT+2 row and WIDTH+1 columns. WIDTH is equal to the number of pieces; the first and last rows have WIDTH bottom pieces and the HEIGHT middle rows have WIDTH+1 positions. Cut out the top right corner and bottom left corner and you can easily calculate the valid moves for each position by sliding up/down/left/right in the matrix (previously, they were mostly hard-coded).
+
+Right now, the way positions are calculated is as follows: Each BlankOX has a value (Blank = 0, o = 1, x = 2). The position number is 3^i * value of the piece there for all the positions i on the board. To encode whose turn it is, offset (which is 3^BOARDSIZE) is added if it’s x’s turn.
+
+By the way… if it Segmentation Faults or complains you’re overflowing or running out of space, delete the data file and it’ll work again.
+
+## Further Recommended Projects
+Right now, the allocated number of positions is 3^BOARDSIZE*2 which is extremely space-inefficient. In fact, if you print out the summary for all the boards, the hash efficiency is 0% - the vast majority of the space allocated for the possible positions is never touched because those positions aren’t valid boards. A better estimate of how many positions there are is 2 * BOARDSIZE Choose 2n where n is the number of pieces, since you just need to represent where each of the players’ pieces are. 
+To compare the sizes, for a normal 3x2 board, the current exponential allocation will get you 3^16*2 = 86,093,442 positions, but (16C6) * 2 gives you just 16,016.
+It could get even smaller if you get more fancy. This project would require changing a just a few functions in the file but would allow for much larger board sizes.
+
