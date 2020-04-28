@@ -1,0 +1,46 @@
+CONSTRAINED SEQUENCE TO INDEX MAPPING
+
+First, note that indexing is equivalent to building a tight hash function-- the hash is the position's index. 
+We assume that we are dealing with a sequence S such that $|S| < \infty$ and $S \subseteq D$ where D is a finite dictionary. We want an algorithm that is $\in P$
+
+CONSTRAINED SEQUENCE TO INDEX MAPPING
+
+Motivation (beautiful): 
+In the most general case, a game can be solved simply by building a list of all the possible positions in the game and then finding the value of each position starting from the primitive positions and working upward. In some cases, a simple set of restrictions may be used to specify which gamestates are valid and which aren't. If these restrictions could be converted into a hashing function, the values for the game could be instead stored in an array and indexed by their positions. Without needing to store information about each position, the resulting database can be significantly compressed. Furthermore, if the game obeys certain nice properties, it may be possible to cache all the children of groups of positions while solving so that it becomes unnecessary to go to disk for each and every position to be solved.
+
+We assume that we are dealing with a sequence S such that $|S| < \infty$ and $S \subseteq D$ where D is a finite dictionary. We want an algorithm that is $\in P$
+
+First, note that indexing is equivalent to building a tight hash function-- the hash is the position's index.
+The order of elements in a dictionary can be entirely replicated by hashing the sequence as a base $d$ number. In other words, we record each element (move) as a digit in $d$. 
+
+Given our sequence $S = [s_0, s_1, \ldots, s_{m-1}] s.t. \forall k, 0 \leq s_k < d$
+First we define f(partial_sequence) which returns the number of unique ways to validly complete the sequence (given the rules of the set). 
+
+We define hash(s):
+    Total = 0
+    For i in [m]:
+        For c in range(S[i]):
+            Total += f(S[:i]+c) // all the different ways to make a valid sequence of 
+//each length ending with each possible value
+
+Runtime? O(md) -> which is in P
+But is this unique?
+Any two sequences$ S_i \not = S_j$ MUST differ in at least one element, so they have to have different unique index, in order hashes!
+
+We then define unhash(n) to be the reverse process of hash. We decrease our running tally when we get any legal count. We do not have to worry about removing/screening out invalid runs, as for any invalid run I, f(I) = 0.
+We can run unhash from the empty sequence, which will give us the total number of satisfying sequences! From this, we can prove the compactness!
+
+The hard part: the stepping algorithm!! We call it $I_f(s)$ as it relies on our function f(s)
+Naively, we could unhash, add one, rehash. Can we do better? Yes!
+When $S_{m-1}$ is first incremented, $I_f(s)$ goes up by one as $f(s) = 1$ means we have a valid sequence
+After, while $f(S_{i+1})=0$, incrementing $s_i$ doesn’t affect $I_f$ as the value will be zero
+Then, if $s_i = d$, remove and increment $s_{i-1}$ by one (which will not change $I_f$)
+Finally, forall remaining terms can’t change the hash because their sum must be zero! (Hint: think about why!!)
+
+This feeds directly into a
+ connect four hash!
+
+
+
+
+
